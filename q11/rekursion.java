@@ -1,7 +1,7 @@
 /**
- * q11
+ * rekursion
  */ 
-public class q11 {
+public class rekursion {
     public static void main(String[] args) {
         // Rekursion
         System.out.println(add(5,25));
