@@ -23,5 +23,15 @@ public class Telefonbuch {
             }
         }
     }
+
+    public boolean suche(int nummer, String name) {
+        if (erster==null) {
+            return false;
+        } else if (erster.getName()==name && erster.getNummer()==nummer) {
+            return true;            
+        } else {
+            return erster.suche(nummer,name);
+        }
+    }
     
 }

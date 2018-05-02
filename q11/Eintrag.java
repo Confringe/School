@@ -29,6 +29,16 @@ public class Eintrag {
         }
     }
 
+    public boolean suche(int nummer, String name) {
+        if (this.next==null) {
+            return false;
+        } else if (this.next.getName()==name && this.next.getNummer()==nummer) {
+            return true;
+        } else {
+            return this.next.delete(name, nummer);
+        }
+    }
+
     public Eintrag getNext() {
         return this.next;
     }
