@@ -29,13 +29,21 @@ public class Eintrag {
         }
     }
 
-    public boolean suche(int nummer, String name) {
+    public int suche(int nummer, String name, int pos) {
         if (this.next==null) {
-            return false;
+            return 0;
         } else if (this.next.getName()==name && this.next.getNummer()==nummer) {
-            return true;
+            return pos;
         } else {
-            return this.next.delete(name, nummer);
+            return this.next.suche(nummer, name,++pos);
+        }
+    }
+
+    public int laenge(int position) {
+        if(this.next==null){
+            return position;
+        } else {
+            return this.next.laenge(++position);
         }
     }
 

@@ -24,13 +24,23 @@ public class Telefonbuch {
         }
     }
 
-    public boolean suche(int nummer, String name) {
+    public int suche(int nummer, String name) {
         if (erster==null) {
-            return false;
+            return 0;
         } else if (erster.getName()==name && erster.getNummer()==nummer) {
-            return true;            
+            return 1;            
         } else {
-            return erster.suche(nummer,name);
+            int pos=2;
+            return erster.suche(nummer,name,pos);
+        }
+    }
+
+    public int laenge() {
+        if (erster==null) {
+            return 0;
+        } else {
+            int pos=1;
+            return erster.laenge(pos); 
         }
     }
     

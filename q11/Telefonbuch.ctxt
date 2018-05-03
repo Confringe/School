@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Telefonbuch
+comment0.text=\r\n\ telefonBuch\r\n
+comment1.params=name\ nummer
+comment1.target=void\ add(java.lang.String,\ int)
+comment2.params=name\ nummer
+comment2.target=boolean\ delete(java.lang.String,\ int)
+comment3.params=nummer\ name
+comment3.target=int\ suche(int,\ java.lang.String)
+comment4.params=
+comment4.target=int\ laenge()
+numComments=5
