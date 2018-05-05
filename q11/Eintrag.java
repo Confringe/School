@@ -13,6 +13,9 @@ public class Eintrag {
     public void add(Eintrag e) {
         if(this.next==null){
             this.next=e;
+        } else if (e.getName().compareTo(this.next.getName())<=0) {
+            e.setNext(this.next);
+            this.next=e;
         } else{
             this.next.add(e);
         }
@@ -38,6 +41,26 @@ public class Eintrag {
             return this.next.suche(nummer, name,++pos);
         }
     }
+    
+    public String sucheName(int nummer) {
+        if (this.nummer==nummer) {
+            return this.name;
+        } else if (this.next==null) {
+            return "Nicht vorhanden";
+        } else {
+            return this.next.sucheName(nummer);
+        }
+    }
+
+    public int sucheNummer(String name) {
+        if  (this.name==name) {
+            return this.nummer;
+        } else if (this.next==null) {
+            return -1;
+        } else {
+            return this.next.sucheNummer(name);
+        }
+    }
 
     public int laenge(int position) {
         if(this.next==null){
@@ -47,8 +70,20 @@ public class Eintrag {
         }
     }
 
+    public int laengx() {
+        if(this.next==null){
+            return 1;
+        } else {
+            return 1+this.next.laengx();
+        }
+    }
+
     public Eintrag getNext() {
         return this.next;
+    }
+
+    public void setNext(Eintrag e) {
+        this.next=e;
     }
     
     public int getNummer() {
