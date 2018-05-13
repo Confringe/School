@@ -12,7 +12,12 @@ public class liste {
 
     public void delete(String name, int nummer){
         if(erster instanceof knoten){
-            erster.delete(name,nummer);
-        } 
+            knoten xd=(knoten)this.erster;
+            if(name==xd.returnname() && nummer==xd.returnnummer()){
+                erster=xd.returnnext();
+            } else {
+                erster.delete(name,nummer);
+            }
+        }
     }
 }

@@ -38,4 +38,12 @@ public class knoten extends listenelement {
     public eintrag returneintrag(){
         return e;
     }
+    
+    public int returnnummer(){
+        return e.returnNummer();
+    }
+    
+    public String returnname(){
+        return e.returnName();
+    }
 }
