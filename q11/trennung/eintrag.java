@@ -5,4 +5,12 @@ public class eintrag {
         this.name=name;
         this.nummer=nummer;
     }
+    
+    public String returnname(){
+        return this.name;
+    }
+    
+    public int returnnummer(){
+        return this.nummer;
+    }
 }
