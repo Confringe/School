@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=name\ nummer
+comment0.target=knoten(java.lang.String,\ int)
+comment1.params=next
+comment1.target=void\ setnext(listenelement)
+comment2.params=
+comment2.target=eintrag\ returndata()
+comment3.params=name\ nummer
+comment3.target=knoten\ add(java.lang.String,\ int)
+comment4.params=
+comment4.target=int\ lenght()
+comment5.params=pos
+comment5.target=eintrag\ get(int)
+comment6.params=data
+comment6.target=eintrag\ getlast(eintrag)
+comment7.params=name
+comment7.target=int\ searchnummer(java.lang.String)
+comment8.params=nummer
+comment8.target=java.lang.String\ searchname(int)
+comment9.params=
+comment9.target=listenelement\ deletefirst()
+numComments=10
