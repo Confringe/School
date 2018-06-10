@@ -2,11 +2,12 @@ public class liste{
     private listenelement erster=new abschluss();
     
     public liste(){
-        add("a",1);
-        add("b",2);
-        add("c",3);
-        add("d",4);
-        add("e",5);
+        addsorted("f",6);       
+        addsorted("c",3);
+        addsorted("a",1);        
+        addsorted("d",4);
+        addsorted("e",5);
+        addsorted("b",2);        
     }
     
     //---------------------------------------------------------------------- 
@@ -43,5 +44,17 @@ public class liste{
     
     public void deletefirst(){
         erster=erster.deletefirst();
+    }
+    
+    public void delete(String name, int nummer){
+        this.erster=this.erster.delete(name, nummer);
+    }
+    
+    public void deletelast(){
+        this.erster=this.erster.deletelast(lenght()-1);
+    }
+    
+    public void addsorted(String name, int nummer){
+        this.erster=this.erster.addsorted(name, nummer);
     }
 }

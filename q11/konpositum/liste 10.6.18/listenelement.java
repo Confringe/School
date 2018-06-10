@@ -7,4 +7,7 @@ public abstract class listenelement
     public abstract int searchnummer(String name);
     public abstract String searchname(int nummer);
     public abstract listenelement deletefirst();
+    public abstract listenelement delete(String name, int nummer);
+    public abstract listenelement deletelast(int last);
+    public abstract listenelement addsorted(String name, int nummer);
 }

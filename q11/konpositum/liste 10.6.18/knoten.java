@@ -55,4 +55,33 @@ public class knoten extends listenelement{
     public listenelement deletefirst(){
         return this.next;
     }
+    
+    public listenelement delete(String name, int nummer){
+        if(name==data.returnname() && nummer==data.returnnummer()){
+            return this.next;
+        } else{
+            this.next=this.next.delete(name, nummer);
+            return this;
+        }
+    }
+    
+    public listenelement deletelast(int last){
+        if(last==0){
+            return this.next;
+        }else{
+            this.next=this.next.deletelast(last-1);
+            return this;
+        }
+    }
+    
+    public listenelement addsorted(String name, int nummer){
+        if(name.compareToIgnoreCase(this.data.returnname())<0){
+            knoten k=new knoten(name, nummer);
+            k.setnext(this);
+            return k;
+        }else{
+            this.next=this.next.addsorted(name, nummer);
+            return this;
+        }
+    }
 }

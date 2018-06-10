@@ -24,6 +24,18 @@ public class abschluss extends listenelement{
     }
     
     public listenelement deletefirst(){
-        return null;
+        return this;
+    }
+    
+    public listenelement delete(String name, int nummer){
+        return this;
+    }
+    
+    public listenelement deletelast(int las){
+        return this;
+    }
+    
+    public listenelement addsorted(String name, int nummer){
+        return new knoten(name, nummer);
     }
 }
