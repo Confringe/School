@@ -204,4 +204,6 @@ public class snake extends SPIEL {
             end();
         }
     }
+    
+    //to do: anti spawing in snake; snakething spawning outside the grid
 }
