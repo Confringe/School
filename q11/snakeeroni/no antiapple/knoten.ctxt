@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=posx\ posy
+comment0.target=knoten(int,\ int)
+comment1.params=data
+comment1.target=knoten(snakething)
+comment2.params=
+comment2.target=snakeelement\ returnnext()
+comment3.params=posx\ posy
+comment3.target=snakeelement\ offer(int,\ int)
+comment4.params=
+comment4.target=snakething\ poll()
+comment5.params=input
+comment5.target=boolean\ comparedata(snakething)
+comment6.params=thing
+comment6.target=snakething\ getlast(snakething)
+comment7.params=
+comment7.target=snakething\ getfirst()
+comment8.params=pos
+comment8.target=snakething\ get(int)
+comment9.params=next
+comment9.target=void\ setnext(snakeelement)
+numComments=10

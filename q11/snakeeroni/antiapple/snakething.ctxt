@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=posx\ posy
+comment0.target=snakething(int,\ int)
+comment1.params=
+comment1.target=int\ returnposx()
+comment2.params=
+comment2.target=int\ returnposy()
+comment3.params=input
+comment3.target=boolean\ compare(snakething)
+numComments=4

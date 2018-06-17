@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KREIS()
+comment0.text=\r\n\ Konstruktor\ der\ Klasse\ <code>KREIS</code>.\ Erstellt\ einen\ neuen\ Kreis.\r\n
+comment1.params=farbeNeu
+comment1.target=void\ setzeFarbe(java.lang.String)
+comment1.text=\r\n\ Setzt\ die\ Farbe\ dieses\ Kreises\ neu.\r\n\ @param\ \ \ farbeNeu\ \ \ \ Diese\ Farbe\ erhaelt\ der\ Kreis\ (z.B.\ "Rot")\r\n
+comment2.params=m_x\ m_y
+comment2.target=void\ setzeMittelpunkt(int,\ int)
+comment2.text=\r\n\ Setzt\ den\ Mittelpunkt\ dieses\ Kreises\ neu.\r\n\ @param\ m_x\ \ \ Die\ X-Koordinate\ des\ Mittelpunktes.\r\n\ @param\ m_y\ \ \ Die\ Y-Koordinate\ des\ Mittelpunktes.\r\n
+comment3.params=radius
+comment3.target=void\ setzeRadius(int)
+comment3.text=\r\n\ Setzt\ den\ Radius\ dieses\ Kreises\ neu.\r\n\ @param\ \ \ radius\ \ Der\ neue\ Radius\ (in\ Pixel)\r\n
+comment4.params=sichtbarNeu
+comment4.target=void\ setzeSichtbar(boolean)
+comment4.text=\r\n\ Setzt,\ ob\ dieser\ Kreis\ sichtbar\ sein\ soll.\r\n\ @param\ \ \ sichtbarNeu\ Ist\ dieser\ Wert\ <code>true</code>,\ ist\ nach\ dem\ Aufruf\ dieser\ Methode\ dieser\ Kreis\ \r\n\ sichtbar.\ Ist\ dieser\ Wert\ <code>false</code>,\ so\ ist\ nach\ dem\ Aufruf\ dieser\ Methode\ dieser\ Kreis\ unsichtbar.\r\n
+comment5.params=deltaX\ deltaY
+comment5.target=void\ verschiebenUm(int,\ int)
+comment5.text=\r\n\ Verschiebt\ diesen\ Kreis\ um\ eine\ Verschiebung\ -\ angegeben\ durch\ ein\ "Delta\ X"\ und\ "Delta\ Y".\r\n\ @param\ \ \ deltaX\ \ Der\ X\ Anteil\ dieser\ Verschiebung.\ Positive\ Werte\ verschieben\ nach\ rechts,\ negative\ nach\ links.\r\n\ @param\ \ \ deltaY\ \ Der\ Y\ Anteil\ dieser\ Verschiebung.\ Positive\ Werte\ verschieben\ nach\ unten,\ negative\ nach\ oben.\r\n
+numComments=6
