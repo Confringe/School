@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=pos
+comment0.target=stackelement\ lastin(int)
+comment1.params=pos
+comment1.target=stackelement\ firstout(int)
+comment2.params=
+comment2.target=void\ printerino()
+comment3.params=pos
+comment3.target=stackelement\ get(int)
+numComments=4

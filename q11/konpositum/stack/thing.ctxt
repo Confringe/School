@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=pos
+comment0.target=thing(int)
+comment1.params=
+comment1.target=int\ returnpos()
+comment2.params=pos
+comment2.target=void\ setpos(int)
+numComments=3
