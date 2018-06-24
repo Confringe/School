@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=posx\ posy
+comment0.target=knoten(int,\ int)
+comment1.params=posx\ posy
+comment1.target=element\ add(int,\ int)
+comment2.params=
+comment2.target=int\ length()
+comment3.params=posx\ posy
+comment3.target=boolean\ check(int,\ int)
+numComments=4

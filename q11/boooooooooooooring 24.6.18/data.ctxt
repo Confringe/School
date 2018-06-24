@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=posx\ posy
+comment0.target=data(int,\ int)
+comment1.params=
+comment1.target=int\ returnposx()
+comment2.params=
+comment2.target=int\ returnposy()
+numComments=3
