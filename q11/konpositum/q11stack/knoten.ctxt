@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=CHAR\ NEXT
+comment0.target=knoten(char,\ listenelement)
+comment1.params=
+comment1.target=listenelement\ poll()
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=
+comment3.target=char\ peek()
+numComments=4

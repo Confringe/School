@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=thing
+comment0.target=void\ poll(char)
+comment1.params=s
+comment1.target=boolean\ korrekt(java.lang.String)
+numComments=2
