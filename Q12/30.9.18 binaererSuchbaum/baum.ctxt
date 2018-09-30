@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=baum
+comment1.params=
+comment1.target=baum()
+comment2.params=a
+comment2.target=void\ add(int)
+comment3.params=s
+comment3.target=boolean\ search(int)
+numComments=4

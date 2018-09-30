@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LISTENELEMENT
+comment1.params=l
+comment1.target=LISTENELEMENT\ add(java.lang.String)
+comment2.params=num
+comment2.target=int\ laenge(int)
+comment3.params=randy
+comment3.target=void\ shuffle(int)
+numComments=4
